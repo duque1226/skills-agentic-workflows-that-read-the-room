@@ -13,6 +13,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     base-branch: main
@@ -29,6 +30,9 @@ Fetch both of these official sources with the web-fetch tool:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
+
+Also include Awesome Copilot workflows as a source when identifying useful updates.
 
 Identify recent items that are useful to developers and fit the site's existing themes. Check publication dates, avoid repeating items already covered, and do not add claims that are not supported by the fetched sources. If there is nothing worthwhile to add, leave the page unchanged.
 
